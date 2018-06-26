@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6584b1cf2ae03d3419508cf258cbc9f3
+timeCreated: 1526677869
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ZX Spectrum7 Bold
+  fontNames:
+  - ZX Spectrum7 Bold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
