@@ -1,2 +1,2 @@
-# MagicCastle
-An experimental game made in Unity
+# Magic Castle
+Experimental game made in Unity3D

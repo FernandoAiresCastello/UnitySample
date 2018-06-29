@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerProjectile : MonoBehaviour
+public class PlayerProjectile : ExtendedMonoBehaviour
 {
 	public float speed = 0.4f;
 	public float maxDistance = 10.0f;
+	public Vector3 offset = new Vector3(0.0f, 0.05f, 0.0f);
 	public List<Sprite> sprites;
 	
 	private Vector3 initialPosition;

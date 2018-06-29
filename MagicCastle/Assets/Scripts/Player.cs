@@ -1,28 +1,31 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class Player : MonoBehaviour
+public class Player : ExtendedMonoBehaviour
 {
 	public float moveSpeed = 2.0f;
 	public float rotationSpeed = 100.0f;
 	public float jumpHeight = 200.0f;
 	public float fallLimit = -10.0f;
 	public int gold = 0;
-	public int health = 50;
+	public int health = 0;
+	public int aura = 0;
 	public bool allowShooting = true;
 	public bool allowJumping = true;
 	public AudioClip fallSound;
 	public GameObject projectile;
-	public Vector3 projectileOffset = new Vector3(0.0f, 0.25f, 0.0f);
 	public Animator anim;
 	
 	private Vector3 initialPos;
+	private Quaternion initialRot;
 	private AudioSource audioSource;
 	private bool isGrounded = false;
+	private bool isLocked = false;
 	
 	void Awake()
 	{
 		initialPos = transform.position;
+		initialRot = transform.rotation;
 		audioSource = GetComponent<AudioSource>();
 		anim = GetComponent<Animator>();
 	}
@@ -35,6 +38,9 @@ public class Player : MonoBehaviour
 	
 	void Update()
 	{
+		if (isLocked)
+			return;
+		
 		float x = Input.GetAxis("Horizontal") * Time.deltaTime * rotationSpeed;
 		float z = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 		bool walking = z != 0.0f;
@@ -45,12 +51,15 @@ public class Player : MonoBehaviour
 		PlayFootsteps(walking);
 		Animate(walking);
 		
-		if (transform.position.y < fallLimit)
+		if (fallLimit != 0 && (transform.position.y < fallLimit))
 			Respawn();
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetButtonDown("Jump"))
 			Jump();
-		if (Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl))
+		if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("Fire2") || Input.GetButtonDown("Fire3"))
 			Shoot();
+		
+		//if (Input.GetKeyDown(KeyCode.F1))
+			//transform.position = GameObject.Find("LastPlatformStart").GetComponent<Transform>().position;
 	}
 	
 	void FixedUpdate()
@@ -75,10 +84,11 @@ public class Player : MonoBehaviour
 	
 	void Shoot()
 	{
-		if (!allowShooting)
+		if (!allowShooting || projectile == null)
 			return;
 		
-		GameObject p = Instantiate(projectile, transform.position + projectileOffset, transform.rotation);
+		GameObject p = Instantiate(projectile, transform.position + 
+			projectile.GetComponent<PlayerProjectile>().offset, transform.rotation);
 		p.transform.localScale = this.transform.localScale;
 		p.tag = "PlayerProjectile";
 	}
@@ -86,7 +96,9 @@ public class Player : MonoBehaviour
 	void Respawn()
 	{
 		audioSource.PlayOneShot(fallSound);
-		transform.position = new Vector3(initialPos.x, 5.0f, initialPos.z);
+		transform.position = initialPos;
+		transform.rotation = initialRot;
+		SetGrounded(true);
 	}
 	
 	void Animate(bool walking)
@@ -106,5 +118,36 @@ public class Player : MonoBehaviour
 		}
 		else
 			audioSource.Stop();
+	}
+	
+	public void Lock()
+	{
+		Lock(true);
+	}
+
+	public void Unlock()
+	{
+		Lock(false);
+	}
+
+	public void Lock(bool locked)
+	{
+		isLocked = locked;
+	}
+	
+	public void Show()
+	{
+		Show(true);
+	}
+
+	public void Hide()
+	{
+		Show(false);
+	}
+
+	public void Show(bool show)
+	{
+		SpriteRenderer rend = GetComponent<SpriteRenderer>();
+		rend.enabled = show;
 	}
 }
