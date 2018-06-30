@@ -9,6 +9,7 @@ public class Player : ExtendedMonoBehaviour
 	public float fallLimit = -10.0f;
 	public int gold = 0;
 	public int health = 0;
+	public int maxHealth = 0;
 	public int aura = 0;
 	public bool allowShooting = true;
 	public bool allowJumping = true;
@@ -19,6 +20,8 @@ public class Player : ExtendedMonoBehaviour
 	private Vector3 initialPos;
 	private Quaternion initialRot;
 	private AudioSource audioSource;
+	private SpriteRenderer spriteRenderer;
+	private Color originalColor;
 	private bool isGrounded = false;
 	private bool isLocked = false;
 	
@@ -27,6 +30,8 @@ public class Player : ExtendedMonoBehaviour
 		initialPos = transform.position;
 		initialRot = transform.rotation;
 		audioSource = GetComponent<AudioSource>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
+		originalColor = spriteRenderer.color;
 		anim = GetComponent<Animator>();
 	}
 	
@@ -104,9 +109,9 @@ public class Player : ExtendedMonoBehaviour
 	void Animate(bool walking)
 	{
 		if (walking)
-			anim.Play("shadow_walk");
+			anim.Play("PlayerWalk");
 		else
-			anim.Play("shadow_idle");
+			anim.Play("PlayerIdle");
 			
 	}
 	
@@ -147,7 +152,23 @@ public class Player : ExtendedMonoBehaviour
 
 	public void Show(bool show)
 	{
-		SpriteRenderer rend = GetComponent<SpriteRenderer>();
-		rend.enabled = show;
+		spriteRenderer.enabled = show;
+	}
+	
+	public void Damage(int points)
+	{
+		health -= points;
+		if (health < 0)
+			health = 0;
+		
+		Flash(Color.red);
+	}
+	
+	public void Flash(Color color)
+	{
+		spriteRenderer.color = color;
+		Wait(0.2f, ()=> {
+			spriteRenderer.color = originalColor;
+		});		
 	}
 }

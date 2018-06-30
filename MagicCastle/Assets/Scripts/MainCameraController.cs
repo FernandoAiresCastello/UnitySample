@@ -13,8 +13,6 @@ public class MainCameraController : MonoBehaviour
  
 	void Awake()
 	{
-		Screen.SetResolution(640, 480, false);
-		
 		if (followTarget) {
 			if (target == null) {
 				target = GameObject.FindWithTag("Player").GetComponent<Transform>();

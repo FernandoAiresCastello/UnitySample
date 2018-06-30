@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TextureIterator : ExtendedMonoBehaviour {
+public class TextureIterator : MonoBehaviour {
 
 	public float delay = 1.0f;
 	public List<Texture> textures;

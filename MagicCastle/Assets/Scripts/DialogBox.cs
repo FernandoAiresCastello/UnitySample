@@ -37,17 +37,22 @@ public class DialogBox : MonoBehaviour {
 		transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 	}
 	
-	public void Show(string text, Color color, float height)
+	public void Show(string text, int fontSize, Color color)
 	{
 		SetText(text);
+		SetFontSize(fontSize);
 		SetColor(color);
-		//SetHeight(height);
 		Show();
 	}
 	
 	public void SetText(string text)
 	{
 		dialogText.text = text;
+	}
+
+	public void SetFontSize(int fontSize)
+	{
+		dialogText.fontSize = fontSize;
 	}
 	
 	public void SetHeight(float height)

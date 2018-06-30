@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/scene01.unity
+    path: Assets/Scenes/castlevillage.unity
     guid: 379c1f8bad39ee14fa43bcfd6a4ab32c
   - enabled: 1
-    path: Assets/Scenes/scene02.unity
+    path: Assets/Scenes/castleunderpass.unity
     guid: 84d9a3b7fbfd52e48946211b631b3218
   - enabled: 1
-    path: Assets/Scenes/scene03.unity
+    path: Assets/Scenes/happyhall.unity
+    guid: 2e013de5d516bcd4893157077e7feda9
+  - enabled: 1
+    path: Assets/Scenes/bbgumrosy.unity
     guid: 4521f9ba711d1ed478e6e8d7376f9477

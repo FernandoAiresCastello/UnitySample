@@ -408,6 +408,7 @@ MonoBehaviour:
     is \"magic\" in the sense that it's cursed, I tell you. I guess some things are
     better left alone...\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2006983
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -493,8 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &6806078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -580,8 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &7104577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -860,7 +859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ae4b3e95298b54e9eab9d50eb137c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: {fileID: 102900000, guid: 84d9a3b7fbfd52e48946211b631b3218, type: 3}
+  nextScene: castleunderpass
   enterSound: {fileID: 8300000, guid: 0610ce1f0d077dd408243cc4f4cc9d6d, type: 3}
   flashScreen: 1
 --- !u!82 &8858233
@@ -1115,8 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &13714764
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1230,6 +1228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Hey, stop pushing me, stranger!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &16629664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1264,7 +1263,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0bb960967e9f9714387c9a1f31eb31da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c38431e567f1d04d84d6847fb69ad72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -1399,8 +1398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &19515366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1672,8 +1670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &30901665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1759,8 +1756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &34400653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1846,8 +1842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &35239532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2177,6 +2172,7 @@ MonoBehaviour:
     fly and get to the top of the castle. What happened to him? They say he just landed
     on the gardens and was taken back home. With a broken spine.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &38236421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2211,7 +2207,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3d5480ce43c9334c9474bb79db037a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37ff77b4e0a1ccc47bbdb59fc5a044dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -2400,8 +2396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &61108823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2487,8 +2482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &61829119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2870,8 +2864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &80684043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3092,8 +3085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &91380851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3179,8 +3171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &93222278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3266,8 +3257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &97230424
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3766,8 +3756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &102356769
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4532,8 +4521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &122043489
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4619,8 +4607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &124303923
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4833,8 +4820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &140523967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4881,9 +4867,9 @@ SpriteRenderer:
   m_MaskInteraction: 0
 --- !u!4 &141897079 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903,
+  m_PrefabParentObject: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903,
     type: 2}
-  m_PrefabInternal: {fileID: 1337673939}
+  m_PrefabInternal: {fileID: 216514539}
 --- !u!1001 &145010300
 Prefab:
   m_ObjectHideFlags: 0
@@ -5300,6 +5286,7 @@ MonoBehaviour:
   text: Yes, I am just standing here for no particular reason. So what? You got a
     problem with that?
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &149959201
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5539,6 +5526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '- DO NOT FEED THE CROCCO -'
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &153389929
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6064,8 +6052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &186952950
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6504,6 +6491,7 @@ MonoBehaviour:
     tunnels. Now whoever thinks about going through the underground passage must be
     out of their mind.\r Anyway, it is said to be somewhere around here..."
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &205552566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6682,6 +6670,7 @@ MonoBehaviour:
     this castle float off the ground, others say they see it glow colors once in a
     blue moon... Who knows what's true? I've never seen anything unusual.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &206873795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6836,8 +6825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &208725446
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6986,8 +6974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &216263807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7063,6 +7050,53 @@ Transform:
   m_Father: {fileID: 22025446}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &216514539
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1365575769}
+    m_Modifications:
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.696
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.477
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409209880397186, guid: becf94b826e45f448b9113dd19811903, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114339201172663302, guid: becf94b826e45f448b9113dd19811903,
+        type: 2}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 899117003}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: becf94b826e45f448b9113dd19811903, type: 2}
+  m_IsPrefabParent: 0
 --- !u!43 &224282886
 Mesh:
   m_ObjectHideFlags: 0
@@ -7234,8 +7268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &224688546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7321,8 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &230911869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7618,8 +7650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &245456722
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7705,8 +7736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &245567223
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7792,8 +7822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &255375614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7879,8 +7908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &256563266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8050,8 +8078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &260138028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8645,8 +8672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &280530481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9116,8 +9142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &301044691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9316,97 +9341,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4112603747558150, guid: bf218fb29ffc9ca42a5b9df3a7a75632,
     type: 2}
   m_PrefabInternal: {fileID: 301916850}
---- !u!1 &304656754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1817620513034148, guid: ff6a4d047568aef44bc7cd9d1c0f613c,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 304656755}
-  - component: {fileID: 304656757}
-  - component: {fileID: 304656756}
-  m_Layer: 0
-  m_Name: Flower
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &304656755
+--- !u!4 &304656755 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4184313269710794, guid: ff6a4d047568aef44bc7cd9d1c0f613c,
+  m_PrefabParentObject: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304656754}
-  m_LocalRotation: {x: 0.5134926, y: -0, z: -0, w: 0.858094}
-  m_LocalPosition: {x: -1.598, y: 0.5338, z: -15.4928}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1310748567}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 61.793003, y: 0, z: 0}
---- !u!114 &304656756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114405730012357090, guid: ff6a4d047568aef44bc7cd9d1c0f613c,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304656754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
---- !u!212 &304656757
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212702514959561576, guid: ff6a4d047568aef44bc7cd9d1c0f613c,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 304656754}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f16e58950fef1fc44affbf242e9adb2b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_PrefabInternal: {fileID: 341725962}
 --- !u!1 &308939813
 GameObject:
   m_ObjectHideFlags: 0
@@ -9702,8 +9641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &324268256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10176,8 +10114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &333208350
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10311,6 +10248,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 334110615}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &341725962
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1310748567}
+    m_Modifications:
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.598
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5338
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -15.4928
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.5134926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.858094
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123103740979410, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ff6a4d047568aef44bc7cd9d1c0f613c, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &342587346
 GameObject:
   m_ObjectHideFlags: 0
@@ -10352,8 +10331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &342587349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10599,6 +10577,7 @@ MonoBehaviour:
     poor souls have managed to enter it somehow, but they have never been heard of
     again. I wonder what happened to them.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &353952328
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10633,7 +10612,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 37ff77b4e0a1ccc47bbdb59fc5a044dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90b965e15e96bcd4899e126129fcff7d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -10684,8 +10663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &355102142
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10840,8 +10818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &359865934
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10927,8 +10904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &359894477
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11088,8 +11064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &367724218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11535,6 +11510,7 @@ MonoBehaviour:
   text: What? The castle? I'm afraid to even think about what lurks inside it. It's
     not "magic", it's cursed!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &389884884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11569,7 +11545,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2c38431e567f1d04d84d6847fb69ad72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3213005b64c4b614bae5e4b60293ae36, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -12121,8 +12097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &399192955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12560,8 +12535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &410178988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12751,8 +12725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &414544011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12838,8 +12811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &415310680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13114,6 +13086,7 @@ MonoBehaviour:
     from the unknown perils of the outside world. So don't you go around trying to
     climb them, stranger.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &419143703
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13644,8 +13617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &436997634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13731,8 +13703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &440980392
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13948,8 +13919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &442264150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14322,8 +14292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &452433621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15042,6 +15011,7 @@ MonoBehaviour:
     and shield? Are you a warrior? Where the heck did you come from, anyways? Whoever
     you are, we live in a very peaceful land, so we have no need for warriors.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &465465153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15076,7 +15046,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3d5480ce43c9334c9474bb79db037a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2333853834f9f1d409df5628ef3073ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -15377,8 +15347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &476816558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15680,8 +15649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &482740311
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15927,8 +15895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &490935050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16014,8 +15981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &494201310
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16644,6 +16610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Who are you?
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &519193990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16897,6 +16864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: We shouldn't be here... Please don't tell anyone!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &524982208
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17380,8 +17348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &532335723
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17467,8 +17434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &537030922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17554,8 +17520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &539201382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17841,8 +17806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &558356250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18012,8 +17976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &563669918
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18099,8 +18062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &565438962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18186,8 +18148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &568540551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18587,8 +18548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &579607704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18970,8 +18930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &583411834
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19646,8 +19605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &597321133
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19733,8 +19691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &604285578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19820,8 +19777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &604764859
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19907,8 +19863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &608518782
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20368,6 +20323,7 @@ MonoBehaviour:
   text: "The Magic Castle looks beautiful on the outside, doesn't it? Now, I wonder
     who can tell how it looks like on the inside. It remains a mystery.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &614971732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20402,7 +20358,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e8ee728188b94b24c9d362dce58ca9c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e226e958e0a54f24089b1bac78c02fc2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -20667,8 +20623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &630758967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21031,8 +20986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &639918996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21328,8 +21282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &647255055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21827,8 +21780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &658861470
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21914,8 +21866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &659748950
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22001,8 +21952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &660064184
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22088,8 +22038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &662042813
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22264,8 +22213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &663453981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23643,6 +23591,7 @@ MonoBehaviour:
   text: Hey, stranger! Be careful with that sword, you might hurt someone! We don't
     want no trouble around here.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &703289914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23843,8 +23792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &706639726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23930,8 +23878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &708366557
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24047,6 +23994,7 @@ MonoBehaviour:
 
     - DO NOT TRESPASS -'
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &711503556
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24132,8 +24080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &717813254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24281,6 +24228,7 @@ MonoBehaviour:
   text: You don't intend to enter the Magic Castle, do you? Hah! The main gate is
     completely shut down, you fool!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &724947870
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24439,8 +24387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &732205638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25317,8 +25264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &756470804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25867,8 +25813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &778898896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25954,8 +25899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &780957768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26041,8 +25985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &789528006
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26248,8 +26191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &793840956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26335,8 +26277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &798273108
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26985,8 +26926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &819320979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27072,8 +27012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &820944877
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27441,8 +27380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &831584851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27591,8 +27529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &836633395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27678,8 +27615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &837283778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27765,8 +27701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &838114365
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28065,8 +28000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &862159366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28218,8 +28152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: -45
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &868789944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28306,8 +28239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &870020467
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28555,8 +28487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &889289062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28642,8 +28573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &894437016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28729,8 +28659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &896235726
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29059,6 +28988,7 @@ MonoBehaviour:
     laws of physics don't apply correctly. And at times you don't feel like you are
     inside a castle anymore. You are in another dimension altogether...
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &901613192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29093,7 +29023,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bbc02619d519f0c4db87b6fb36a35a72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3f05e758c6bb904ea52698ba4b5262d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -29267,8 +29197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &919947676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29771,8 +29700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &930949922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30283,8 +30211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &940413861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -30867,8 +30794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &958859404
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31127,8 +31053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &961958100
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31344,8 +31269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &974211929
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31583,8 +31507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &985131131
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31739,8 +31662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &988892007
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31826,8 +31748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &992761347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31944,8 +31865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &998435263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32224,8 +32144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1008669270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32585,6 +32504,7 @@ MonoBehaviour:
   text: Who are you? What do you want from me? Why are you touching me? I am a busy
     man, now if you will excuse me.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1017069100
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32619,7 +32539,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0bff09276c3b018408437fda598aac89, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bbc02619d519f0c4db87b6fb36a35a72, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -32755,6 +32675,7 @@ MonoBehaviour:
 
     - DO NOT TRESPASS -'
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1018625639
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33122,8 +33043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1024999960
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33890,8 +33810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1056276138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -33977,8 +33896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1061288686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34064,8 +33982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1061722874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35384,8 +35301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1111211692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35632,8 +35548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1113200245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35719,8 +35634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1113834323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36066,8 +35980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1122929545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36347,8 +36260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1137969974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36434,8 +36346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1138607245
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36521,8 +36432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1147794212
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37166,8 +37076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1161736360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37865,8 +37774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1185556690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38212,8 +38120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1191778456
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38330,8 +38237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1197560528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38508,8 +38414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1203538844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38809,8 +38714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1211604938
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39067,8 +38971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1216820937
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39593,8 +39496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1235681313
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39680,8 +39582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1236100982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40138,8 +40039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1251631634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40294,8 +40194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1257691538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40511,8 +40410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1258957987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40629,8 +40527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1275849124
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40716,8 +40613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1284707209
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40803,8 +40699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1287020045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40954,8 +40849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1289258834
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41041,8 +40935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1289514946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41287,6 +41180,7 @@ MonoBehaviour:
   text: It's too crowded up there as usual, so I'm just waiting down here. I hate
     crowds.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1298841214
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41321,7 +41215,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 37ff77b4e0a1ccc47bbdb59fc5a044dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe51d6fd177b0ec46b09380bb9a6dd23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -41435,8 +41329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1302693742
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41522,8 +41415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1303651472
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41640,8 +41532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1305090151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41796,8 +41687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1308106382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42044,8 +41934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1314285909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42160,6 +42049,7 @@ MonoBehaviour:
   text: "Who are you, stranger? This is the Magic Castle garden. What? You want to
     go inside the castle? Hah hah hah! Good luck or die trying.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1318808959
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42194,7 +42084,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0bff09276c3b018408437fda598aac89, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3d5480ce43c9334c9474bb79db037a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -42406,8 +42296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1332409356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42515,53 +42404,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4489488018085558, guid: b6fdabe9038f11840acdfbfe46789c2e,
     type: 2}
   m_PrefabInternal: {fileID: 1335276977}
---- !u!1001 &1337673939
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1365575769}
-    m_Modifications:
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 2.425
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.444
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.477
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4006346829156424, guid: becf94b826e45f448b9113dd19811903, type: 2}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114293073633297998, guid: becf94b826e45f448b9113dd19811903,
-        type: 2}
-      propertyPath: mainCamera
-      value: 
-      objectReference: {fileID: 899117003}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: becf94b826e45f448b9113dd19811903, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1339109535
 GameObject:
   m_ObjectHideFlags: 0
@@ -42781,8 +42623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1347019293
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43021,8 +42862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1358634375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43301,8 +43141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1363396046
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43388,6 +43227,7 @@ Transform:
   - {fileID: 22025446}
   - {fileID: 724873545}
   - {fileID: 88145795}
+  - {fileID: 1944449402}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43615,8 +43455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1369467826
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43702,8 +43541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1375063180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43919,8 +43757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1383380611
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44136,8 +43973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1386976049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44251,6 +44087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Hello, stranger. Visiting the Magic Castle grounds? Have a nice day!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1388539997
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44285,7 +44122,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3d5480ce43c9334c9474bb79db037a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9efd2b6f40d3b84b9887039d8bf88f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -44578,8 +44415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1401746505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45019,8 +44855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1417033305
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45253,8 +45088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1421487125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45434,8 +45268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1426571974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45760,8 +45593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1431195677
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45977,8 +45809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1437073278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46140,8 +45971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1439688244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46432,8 +46262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1449519281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47276,6 +47105,7 @@ MonoBehaviour:
   text: "This beautiful garden is the end of the line if you are visiting the Magic
     Castle grounds. You cannot go inside the castle. Nor can anyone else.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1475336236
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47310,7 +47140,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 37ff77b4e0a1ccc47bbdb59fc5a044dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2333853834f9f1d409df5628ef3073ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -47684,6 +47514,7 @@ MonoBehaviour:
     back from there to tell a story. Its builders and purpose also remain unknown
     to this day.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1485382733
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47832,8 +47663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1488232847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48203,8 +48033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1511460578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48353,8 +48182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1520247453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49924,8 +49752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1583428104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -50181,6 +50008,7 @@ MonoBehaviour:
     there is a vast complex of underground tunnels leading into the castle. But don't
     ask me how to find it, I have no idea.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1596045751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -51669,8 +51497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1632533440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52159,8 +51986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1656024497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52246,8 +52072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1656692324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52417,8 +52242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1657708604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52504,8 +52328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1666758450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52978,8 +52801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1679221459
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53065,8 +52887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1679764256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53152,8 +52973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1679798203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53365,8 +53185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1683809785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53521,8 +53340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1686495836
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54069,8 +53887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1706898627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54156,8 +53973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1711175485
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54511,8 +54327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1730651351
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54696,8 +54511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1741790073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54891,8 +54705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1754139238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55379,8 +55192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1781610451
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55535,8 +55347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1783741488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55752,8 +55563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1787713383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -55839,8 +55649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1789955038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56119,8 +55928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1793219262
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56905,8 +56713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1837086429
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57254,8 +57061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1849092824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57540,8 +57346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1855097274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57954,8 +57759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1864402260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58141,8 +57945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1877616736
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -58341,6 +58144,7 @@ MonoBehaviour:
   text: This area is so quiet and unremarkable, there is just lawn and mountains.
     I just wonder what lies beyond those mountains...
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1892945765
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59456,8 +59260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1917862914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59803,8 +59606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1921154675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60063,8 +59865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1926345663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60150,8 +59951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1930225012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60237,8 +60037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1937797084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60324,8 +60123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1939401470
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60474,8 +60272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1942260691
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60561,8 +60358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1942614949
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60607,6 +60403,34 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1944449401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1944449402}
+  m_Layer: 0
+  m_Name: Coins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1944449402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944449401}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0014777519, y: 0.059361696, z: -16.084635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1365575769}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1945397956 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4112603747558150, guid: bf218fb29ffc9ca42a5b9df3a7a75632,
@@ -61781,8 +61605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1972390773
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61868,8 +61691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1972633924
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61986,6 +61808,7 @@ MonoBehaviour:
     to eat those who try to break into the castle. If it eats you up, don't say I
     didn't warn you.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &1972881505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62071,8 +61894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1974060045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62581,8 +62403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &1990366900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -62955,8 +62776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2004752271
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63042,8 +62862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2009024995
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63392,8 +63211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2011594823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63479,8 +63297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2012118239
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63566,8 +63383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2019161519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64072,6 +63888,7 @@ MonoBehaviour:
   text: Hey, you! I have absolutely no idea who you are, but you look just like the
     main protagonist in the legend of Hydlide... Now get off of my rooftop!
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2024910347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64547,8 +64364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2031496658
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -64665,8 +64481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2038361619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65138,8 +64953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2060597480
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65630,8 +65444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2080506257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65717,8 +65530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2084038016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65967,6 +65779,7 @@ MonoBehaviour:
     so happens you are in the vicinity of the Magic Castle. Welcome to our peaceful
     village.\r"
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2085705952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66637,8 +66450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2092297134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66724,8 +66536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2093565179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66811,8 +66622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2094217440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67256,6 +67066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '- PERMANENTLY CLOSED -'
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2116497611
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67507,6 +67318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: Three's a crowd.
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2118611987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -67773,6 +67585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: '- OBSERVATORY -'
   color: {r: 1, g: 1, b: 1, a: 1}
+  fontSize: 18
 --- !u!212 &2126008482
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68120,8 +67933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2133333127
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68207,8 +68019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617a783b0943834690564dde1e4772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
-  multiplier: 10
+  rotationSpeed: {x: 0, y: 0, z: 10}
 --- !u!212 &2134855777
 SpriteRenderer:
   m_ObjectHideFlags: 0

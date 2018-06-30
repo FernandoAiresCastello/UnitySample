@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+	public int goldValue = 1;
+	
 	private AudioSource audioSource;
 	
 	void Awake()
@@ -23,7 +25,7 @@ public class Coin : MonoBehaviour
 	{
 		if (col.gameObject.CompareTag("Player")) {
 			Player player = col.gameObject.GetComponent<Player>();
-			player.gold++;
+			player.gold += goldValue;
 			DestroySelf();
 		}
 	}

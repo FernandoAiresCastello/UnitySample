@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class Spinner : MonoBehaviour
 {
-	public float speed = 0.1f;
-	public float multiplier = -45;
-	
-	void Start()
-	{
-	}
+	public Vector3 rotationSpeed = Vector3.forward * 10;
 	
 	void Update()
 	{
-		Transform t = GetComponent<Transform>();
-		t.Rotate(Vector3.forward * multiplier);
+		transform.Rotate(rotationSpeed);
 	}
 }

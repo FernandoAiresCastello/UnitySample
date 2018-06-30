@@ -19,9 +19,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4002418971001670}
-  - component: {fileID: 212060293123861542}
   - component: {fileID: 114976355323159816}
   - component: {fileID: 114930056594709530}
+  - component: {fileID: 212060293123861542}
   - component: {fileID: 65600930117526358}
   - component: {fileID: 82877139038462518}
   m_Layer: 0
@@ -123,7 +123,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -194,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a9dd6a8bb779888429eab5c16e9e909b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 394f6c02887179d43979c94a57a64c89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class NextScene : ExtendedMonoBehaviour
 {
-	public SceneAsset nextScene;
+	public string nextScene = "";
 	public AudioClip enterSound;
 	public bool flashScreen = true;
 	
@@ -46,7 +45,7 @@ public class NextScene : ExtendedMonoBehaviour
 		}
 
 		Wait(1, ()=> {
-			SceneManager.LoadScene(nextScene.name, LoadSceneMode.Single);
+			SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
 			//player.Show();
 			//player.Unlock();
 		});

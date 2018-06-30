@@ -21,8 +21,8 @@ public class InfoBox : MonoBehaviour
 	void Update()
 	{
 		indicatorText.text = 
-			"H" + player.health + "\n" + 
-			"G" + player.gold + "\n" +
-			"A" + player.aura;
+			player.health + "/" + player.maxHealth  + "\n" + 
+			player.gold + "\n" + 
+			player.aura + "%";
 	}
 }

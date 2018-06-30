@@ -8,8 +8,8 @@ public class Dialog : MonoBehaviour
 	[TextArea(5,10)]
 	public string text = "";
 	public Color color = new Color(1,1,1,1);
-	private float height = 1.0f;
-
+	public int fontSize = 18;
+	
 	private DialogBox dialogBox;
 
 	void Awake()
@@ -28,7 +28,7 @@ public class Dialog : MonoBehaviour
 	void OnCollisionEnter(Collision col)
 	{
 		if (col.gameObject.CompareTag("Player")) {
-			dialogBox.Show(text, color, height);
+			dialogBox.Show(text, fontSize, color);
 		}
 	}
 	
