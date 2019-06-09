@@ -1,2 +1,6 @@
 # Magic Castle
-An experimental game made in Unity
+A sample game made in Unity
+
+This Unity game project was abandoned and retroactively labelled a "sample game".
+
+It's now mostly used to illustrate several techniques that can be used to create a simple 3D game where characters are 2D "billboard" sprites.
