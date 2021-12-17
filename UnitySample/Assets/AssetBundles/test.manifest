@@ -1,0 +1,110 @@
+ManifestFileVersion: 0
+CRC: 3833151275
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8d75468f548129a6f63198c3ba5d9c2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7c92feb8daf166311b3e47737bd87795
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Graphics/Sprites/bed02.png
+- Assets/Graphics/Sprites/book07.png
+- Assets/Graphics/Sprites/boo02.png
+- Assets/Graphics/Sprites/boo12.png
+- Assets/Graphics/Sprites/fence.png
+- Assets/Graphics/Sprites/torch01.png
+- Assets/Graphics/Sprites/female03.png
+- Assets/Graphics/Sprites/male06.png
+- Assets/Graphics/Sprites/female05.png
+- Assets/Graphics/Sprites/ouch01.png
+- Assets/Graphics/Sprites/hydlide01-0.png
+- Assets/Graphics/Sprites/book04.png
+- Assets/Graphics/Sprites/hydlide02-0.png
+- Assets/Graphics/Sprites/boo07.png
+- Assets/Graphics/Sprites/dungeondoor01.png
+- Assets/Graphics/Sprites/boo01-2.png
+- Assets/Graphics/Sprites/male07.png
+- Assets/Graphics/Sprites/book05.png
+- Assets/Graphics/Sprites/rosy01-fl.png
+- Assets/Graphics/Sprites/heart04.png
+- Assets/Graphics/Sprites/heart04-2.png
+- Assets/Graphics/Sprites/book09.png
+- Assets/Graphics/Sprites/boo10.png
+- Assets/Graphics/Sprites/boo11.png
+- Assets/Graphics/Sprites/female06.png
+- Assets/Graphics/Sprites/flowers01.png
+- Assets/Graphics/Sprites/paku01.png
+- Assets/Graphics/Sprites/boo01.png
+- Assets/Graphics/Sprites/hydlide09.png
+- Assets/Graphics/Sprites/boo03.png
+- Assets/Graphics/Sprites/book06.png
+- Assets/Graphics/Sprites/hydlide07.png
+- Assets/Graphics/Sprites/hydlide01-1.png
+- Assets/Graphics/Sprites/male08.png
+- Assets/Graphics/Sprites/female01.png
+- Assets/Graphics/Sprites/male03.png
+- Assets/Graphics/Sprites/hydlide02-2.png
+- Assets/Graphics/Sprites/sign01.png
+- Assets/Graphics/Sprites/hydlide03.png
+- Assets/Graphics/Sprites/hydlide05.png
+- Assets/Graphics/Sprites/book11.png
+- Assets/Graphics/Sprites/female04.png
+- Assets/Graphics/Sprites/female08.png
+- Assets/Graphics/Sprites/hydlide12.png
+- Assets/Graphics/Sprites/hydlide14.png
+- Assets/Graphics/Sprites/bed03.png
+- Assets/Graphics/Sprites/heart04-3.png
+- Assets/Graphics/Sprites/boo14.png
+- Assets/Graphics/Sprites/male05.png
+- Assets/Graphics/Sprites/flag01.png
+- Assets/Graphics/Sprites/boo08.png
+- Assets/Graphics/Sprites/paku02-2.png
+- Assets/Graphics/Sprites/sun01.png
+- Assets/Graphics/Sprites/frogger01.png
+- Assets/Graphics/Sprites/paku02.png
+- Assets/Graphics/Sprites/boo00.png
+- Assets/Graphics/Sprites/book10.png
+- Assets/Graphics/Sprites/boo09.png
+- Assets/Graphics/Sprites/hydlide15.png
+- Assets/Graphics/Sprites/book02.png
+- Assets/Graphics/Sprites/female07.png
+- Assets/Graphics/Sprites/hydlide01-atk.png
+- Assets/Graphics/Sprites/table01.png
+- Assets/Graphics/Sprites/hydlide04.png
+- Assets/Graphics/Sprites/male02.png
+- Assets/Graphics/Sprites/rosy01.png
+- Assets/Graphics/Sprites/hydlide08.png
+- Assets/Graphics/Sprites/castlegate.png
+- Assets/Graphics/Sprites/boo05.png
+- Assets/Graphics/Sprites/hydlide11.png
+- Assets/Graphics/Sprites/hydlide13.png
+- Assets/Graphics/Sprites/chair01.png
+- Assets/Graphics/Sprites/croco02.png
+- Assets/Graphics/Sprites/crosswindow.png
+- Assets/Graphics/Sprites/torch01-fl.png
+- Assets/Graphics/Sprites/female02.png
+- Assets/Graphics/Sprites/boo13.png
+- Assets/Graphics/Sprites/hydlide10.png
+- Assets/Graphics/Sprites/hydlide06.png
+- Assets/Graphics/Sprites/male04.png
+- Assets/Graphics/Sprites/boo06.png
+- Assets/Graphics/Sprites/bed01.png
+- Assets/Graphics/Sprites/paku01-2.png
+- Assets/Graphics/Sprites/male01.png
+- Assets/Graphics/Sprites/book08.png
+- Assets/Graphics/Sprites/boo04.png
+- Assets/Graphics/Sprites/croco01.png
+- Assets/Graphics/Sprites/book01.png
+- Assets/Graphics/Sprites/hydlide01-2.png
+- Assets/Graphics/Sprites/book03.png
+- Assets/Graphics/Sprites/frogger01-2.png
+- Assets/Graphics/Sprites/sword01.png
+- Assets/Graphics/Sprites/hydlide02-1.png
+Dependencies: []
